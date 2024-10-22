@@ -142,6 +142,59 @@ main {
 
 /* Enjoy Section Styles  */
 
+.enjoy {
+    display: flex;
+    gap: 150px;
+}
+
+#enjoy-title {
+    border-left: 5px solid rgb(255, 144, 14);
+    padding-left: 5px;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.enjoy-card-title {
+    color: rgb(19, 19, 19);
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.enjoy-card-description {
+    color: rgb(114, 114, 114);
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+
+#experience-badge {
+    padding: 45px 42px;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.experience-years {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#experience {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+
+
+
+/* some fact Section Styles  */
 .facts-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -201,7 +254,8 @@ main {
 
     .navbar,
     .nav-links,
-    .feature-container {
+    .feature-container,
+    .enjoy {
         flex-direction: column;
     }
 
@@ -248,6 +302,29 @@ main {
     .sponsor-info {
         width: 100%;
     }
+
+    .enjoy-img img {
+        width: 100%;
+    }
+
+    #experience-badge {
+        padding: 15px 12px;
+        margin-top: -100px;
+        margin-left: 0px;
+    }
+
+    .experience-years {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    #experience {
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+
+
 }
 
 /* Medium Device  */
